@@ -1,6 +1,5 @@
 import * as React from 'react';
 import PropTypes from 'prop-types';
-// import SwipeableViews from 'react-swipeable-views';
 import { useTheme } from '@mui/material/styles';
 import AppBar from '@mui/material/AppBar';
 import Tabs from '@mui/material/Tabs';
@@ -72,11 +71,6 @@ function PictureTabs() {
           <Tab className="tab" label="My Dog" {...a11yProps(2)} />
         </Tabs>
       </AppBar>
-      {/* <SwipeableViews className="view"
-        axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
-        index={value}
-        onChangeIndex={handleChangeIndex}
-      > */}
         <TabPanel value={value} index={0} dir={theme.direction}>
             <img src={skiPicture} className="picture"/>
         </TabPanel>
@@ -86,7 +80,6 @@ function PictureTabs() {
         <TabPanel value={value} index={2} dir={theme.direction}>
             <img src={dogPicture} className="picture"/>
         </TabPanel>
-      {/* </SwipeableViews> */}
     </Box>
   );
 }

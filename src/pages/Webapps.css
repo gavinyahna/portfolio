@@ -33,8 +33,8 @@
 }
 
 .accordion {
-    background-color: transparent;
-    color: white;
+    background-color: transparent !important;
+    color: white !important;
     padding-bottom: 1em;
 }
 

@@ -22,7 +22,7 @@ class Home extends React.Component {
           <p className="intro-text">I have been developing software for 7 years working on webapps and video games</p>
           <p className="intro-text">
             Check out my projects from the links in the navbar or 
-            <Button className="home-btn" variant= "contained" onClick={() =>this.setState({hide: true})}>
+            <Button className="home-button" variant= "contained" onClick={() =>this.setState({hide: true})}>
               Enjoy the view
             </Button>
           </p>
@@ -36,7 +36,7 @@ class Home extends React.Component {
     } else {
       return (
         <div className="container">
-          <Button className="white-home-btn" variant= "contained" onClick={() =>this.setState({hide: false})}>
+          <Button className="white-home-button" variant= "contained" onClick={() =>this.setState({hide: false})}>
             About Me
           </Button>
         </div>

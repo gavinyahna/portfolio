@@ -18,7 +18,7 @@
 
 .app-bar {
     border-radius: 0.5em;
-    background-color: transparent;
+    background-color: transparent !important;
 }
 
 .tabs {
