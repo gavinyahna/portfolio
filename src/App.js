@@ -15,6 +15,7 @@ const App = () => {
         <Header/>
           <Routes>
             <Route path="/" exact element={<Home/>} />
+            <Route path="/portfolio" exact element={<Home/>} />
             <Route path="/resume" element={<Resume/>} />
             <Route path="/webapps" element={<Webapps/>} />
             <Route path="/games" element={<Games/>} />
