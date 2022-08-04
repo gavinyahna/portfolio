@@ -13,7 +13,7 @@ class Home extends React.Component {
   }
 
   state = {
-    innerWidth: window.innerWidth
+    deviceWidth: window.innerWidth
   }
 
   componentDidMount() {
@@ -22,11 +22,11 @@ class Home extends React.Component {
   }
 
   resize() {
-      this.setState({innerWidth: window.innerWidth})
+      this.setState({deviceWidth: window.innerWidth})
   }
 
   render() {
-    if (innerWidth < 780) {
+    if (this.state.deviceWidth < 780) {
       return (
         <div className="container">
           <ContentBox>
