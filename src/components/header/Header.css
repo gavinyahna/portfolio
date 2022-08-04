@@ -9,6 +9,17 @@
     mix-blend-mode: multiply;
 }
 
+.header-mobile {
+    top: 0px;
+    background-color: rgb(0, 0, 0, 0.8);
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    mix-blend-mode: multiply;
+}
+
 .header Button{
     background-color: white;
 
@@ -32,15 +43,6 @@
     display: flex;
     align-items: center;
     justify-content: left;
-    margin-top: 0px;
-    color: white;
-}
-
-.name-mobile {
-    font-size: 2em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     margin-top: 0px;
     color: white;
 }

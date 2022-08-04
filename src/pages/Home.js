@@ -31,7 +31,10 @@ class Home extends React.Component {
         <div className="container">
           <ContentBox>
             <img src={portrait} className="portrait"/>
-            <p className="intro-text">Mobile is not currently supported, please view this site on a computer</p>
+            <p className="intro-text">
+              Welcome to my portfolio <br/> <br/>
+              Mobile is not supported please view this site on a computer
+            </p>
           </ContentBox>
         </div>
        

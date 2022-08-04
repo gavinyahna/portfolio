@@ -22,8 +22,8 @@ class Header extends React.Component {
     render() {
         if (innerWidth < 780) {
             return (
-                <div className="header">
-                    <Link className="name-mobile" to ="">
+                <div className="header-mobile">
+                    <Link className="name" to ="">
                         <AcUnitIcon className="name-icon"/>
                         <b>Gavin Yahna</b>
                         <AcUnitIcon className="name-icon"/>
