@@ -26,7 +26,7 @@ const Webapps = () => {
 				<Accordion className="accordion">
 					<AccordionSummary expandIcon={<ExpandMoreIcon className="accordion" />}>
 						<h2 className="accordion-text">Sweetly Becca -</h2>
-						<p className="accordion-text-small">Website for a friends baking company</p>
+						<p className="accordion-text-small">Website for a friend's baking company</p>
 					</AccordionSummary>
 					<AccordionDetails>
 						<SweetlyBeccaDescription/>
