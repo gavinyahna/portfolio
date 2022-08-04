@@ -12,7 +12,31 @@ class Home extends React.Component {
     this.state = {hide: false};
   }
 
+  state = {
+    innerWidth: window.innerWidth
+  }
+
+  componentDidMount() {
+    window.addEventListener("resize", this.resize.bind(this))
+    this.resize()
+  }
+
+  resize() {
+      this.setState({innerWidth: window.innerWidth})
+  }
+
   render() {
+    if (innerWidth < 780) {
+      return (
+        <div className="container">
+          <ContentBox>
+            <img src={portrait} className="portrait"/>
+            <p className="intro-text">Mobile is not currently supported, please view this site on a computer</p>
+          </ContentBox>
+        </div>
+       
+      );
+    }
     if (!this.state.hide) {
     return (
       <div className="container">
