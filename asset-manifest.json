@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2962dec4.css",
+    "main.js": "/static/js/main.425de41a.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/CourseCatalogList.png": "/static/media/CourseCatalogList.a4e3a04d5b5fb019cf0f.png",
+    "static/media/CecretLake.jpg": "/static/media/CecretLake.a53314b2341b7f2e9a49.jpg",
+    "static/media/FamilyHiking.jpg": "/static/media/FamilyHiking.9e9ea9359201a3fbf705.jpg",
+    "static/media/IntraleaguesHome.png": "/static/media/IntraleaguesHome.e951ba667cd64d1f9e66.png",
+    "static/media/WallyCar.jpg": "/static/media/WallyCar.4420151b3c546cadd489.jpg",
+    "static/media/ResumePicture.jpg": "/static/media/ResumePicture.6856fea0a66d831fc26c.jpg",
+    "static/media/SweetlyBeccaAbout.png": "/static/media/SweetlyBeccaAbout.be9c91abc8b821269993.png",
+    "static/media/SquarePortrait.jpg": "/static/media/SquarePortrait.9da0e6a9307a0526efff.jpg",
+    "static/media/SkiingPicture.jpg": "/static/media/SkiingPicture.d1ec1443f07e22f05b9c.jpg",
+    "static/media/StreamlineLogin.png": "/static/media/StreamlineLogin.ecaaa228a8d334710afe.png",
+    "index.html": "/index.html",
+    "main.2962dec4.css.map": "/static/css/main.2962dec4.css.map",
+    "main.425de41a.js.map": "/static/js/main.425de41a.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2962dec4.css",
+    "static/js/main.425de41a.js"
+  ]
+}
