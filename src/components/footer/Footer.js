@@ -27,7 +27,11 @@ class Footer extends React.Component {
                 <b>gavinyahna@gmail.com</b>
                 <b>|</b>
                 <a href="https://github.com/gavinyahna" target="_blank" rel="noreferrer">
-                    <b>github.com/gavinyahna</b>
+                    <b>Github Profile</b>
+                </a>
+                <b>|</b>
+                <a href="https://www.linkedin.com/in/gavin-yahna/" target="_blank" rel="noreferrer">
+                    <b>Linkedin Profile</b>
                 </a>
             </div>
         );
